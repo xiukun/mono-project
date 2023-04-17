@@ -1,0 +1,24 @@
+{
+  "name": "mono-project",
+  "packageManager": "yarn@3.5.0",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "uiButton:dev": "yarn workspace @lyrb/ui-button run lowcode:dev",
+    "postinstall": "husky install",
+    "prettier": "prettier --write ."
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "^6.6.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4"
+  }
+}

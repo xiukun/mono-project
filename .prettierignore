@@ -1,0 +1,13 @@
+coverage
+.yarn
+node_modules/
+lib/
+build/
+dist/
+umd/
+es/
+.cachefile/
+deps.json
+package-lock.json
+yarn.lock
+miniapp/**/*.axml
